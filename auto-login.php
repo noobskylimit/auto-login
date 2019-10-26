@@ -32,7 +32,7 @@ function o1_auto_login_add_filter() {
  *
  *     define( 'AUTO_LOGIN_USER', 'username' );
  */
-function o1_auto_login( $user, $username, $password ) {
+function o1_auto_login( $user, $username, $password, $email) {
 
     $action = isset( $_REQUEST['action'] ) ? $_REQUEST['action'] : 'login';
 
